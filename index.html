@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music-aap</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+     <audio src="song/1.mp3" id="audio"></audio>
+
+     <div class="music-player">
+       <h1 class="music-name">song one</h1>
+       <p class="artist-name">artist</p>
+
+       <div class="disk"></div>
+
+       <div class="song-slider">
+        <input type="range" value="0" class="seek-bar">
+        <span class="current-iteam">00:00</span>
+        <span class="song-duration">00:00</span>
+       </div>
+
+       <div class="controls">
+        <!-- <i class="fa-solid fa-backward"></i> -->
+        <h2 id="fa-solid fa-backward"><<</h2>
+        <i class="backward-btn"></i> 
+        <button class="play-btn pause">
+            
+            <span></span>
+            <span></span>
+        </button>
+        <!-- <i class="fa-solid fa-forward"></i> -->
+        <h1 id="fa-solid fa-forward">>></h1>
+
+        <!-- <i class="forward-btn"></i> -->
+       </div>
+     </div>
+     <!-- <script src="https://kit.fontawesome.com/b21e78cd57.js" crossorigin="anonymous"></script> -->
+     <script src="song.js"></script>
+     <script src="new.js"></script>
+</body>
+</html>
