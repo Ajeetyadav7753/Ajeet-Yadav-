@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Page</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: blue;">Registeration Page</h1>
+    <form action style="max-width: 500px; margin: 0 auto; padding: 20px;background-color: beige;border-radius:10px; box-shadow: 15px;">
+    <fieldset>
+    <legend style="font-size: larger;"><b>Personal Information</b></legend>
+    
+         <label>First Name:- <input type="text" size="20" style="margin-bottom: 10px; padding: 3px; border-radius: 5px;width: 90%;"></label><br><br>
+
+        <label>Last Name:- <input type="password" size="20" style="margin-bottom: 10px; padding: 3px; border-radius: 5px;width: 90%;"></label><br><br>
+
+        <label>Password:- <input type="text" size="20" style="margin-bottom: 10px; padding: 3px; border-radius: 5px;width: 90%;"></label><br><br>
+
+
+        <label>Email-Id:- <input type="email" style="margin-bottom: 10px; padding: 3px; border-radius: 5px;width: 90%;" ></label><br><br>
+
+        <label>Phone Number:- <input type="number" size="10" style="margin-bottom: 10px; padding: 3px; border-radius: 5px;width: 90%;"></label><br><br>
+
+        <label>Date Of Birth:- <input type="date" style="margin-bottom: 10px; padding: 3px; border-radius: 5px;width: 90%;"></label><br><br>
+
+        <label for="Gender">Gender:-</label>
+        <select name="Gender" id="Gender" style="margin-bottom: 10px; padding: 3px; border-radius: 5px;width: 90%;"> 
+            <option value="">Select Your Gender</option>
+            <option value="Male" >male</option>
+            <option value="Female"> Female</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+
+        <label for="Address">Address:-</label><br>
+        <textarea name="Address" id="Address" cols="30" rows="5" style="margin-bottom: 10px; padding: 3px; border-radius: 5px;width: 90%;"></textarea><br><br>
+
+        
+
+        <label for="Department">Department:-</label>
+        <select name="Department" id="Department" style="margin-bottom: 10px; padding: 3px; border-radius: 5px;width: 90%;">
+            <option value="">Select Your Department</option>
+            <option value="computer-science">computer-science</option>
+            <option value="physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Electrical">Electrical</option></select><br><br>
+
+        <label>Year of Enrollment:-<input type="number" style="margin-bottom: 10px; padding: 3px; border-radius: 5px;width: 90%;"></label><br><br>
+        <h5>select your class</h5>
+<label>
+<input type="radio" value="class 10th"name="class">class X</label>
+<label><br><input type="radio" value="class12th" name="class">class XII
+</label>
+<br>
+<h5>select your fav subject</h5>
+
+<label for="maths">
+<input type="checkbox" value="maths" id="">maths </label>
+
+<label for="phy">
+<input type="checkbox" value="maths">physics </label>
+    
+<label for="chem">
+<input type="checkbox" value="maths">chemistry </label>
+
+<label for="CS">
+<input type="checkbox" value="maths">computer science </label><br><br>
+
+<label>Click on the "chhose file" button to upload a file:- <input type="file" id="myfile" name="filename" size="20" style="margin-bottom: 10px; padding: 3px; border-radius: 5px;width: 90%;"><input type="submit"></label><br><br>
+
+
+        <button id="submit" style="margin-bottom: 10px; padding: 3px; border-radius: 5px;width: 90%; background-color:lightgreen ;">Reset</button>
+        <button id="submit" style="margin-bottom: 10px; padding: 3px; border-radius: 5px;width: 90%; background-color:lightgreen ;">Submit</button>
+    </fieldset>
+    </form>
+</body>
+</html>
