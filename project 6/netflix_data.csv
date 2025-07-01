@@ -1,0 +1,11 @@
+user_id,show_title,genre,watch_time,date_watched,rating
+U001,Stranger Things,Thriller,90,01/05/2023,4.5
+U002,The Office,Comedy,45,01/05/2023,4.7
+U001,Narcos,Crime,120,02/05/2023,4.3
+U003,Money Heist,Crime,110,02/05/2023,4.6
+U004,Friends,Comedy,60,03/05/2023,4.8
+U002,Brooklyn 99,Comedy,50,03/05/2023,4.5
+U005,The Witcher,Fantasy,95,04/05/2023,4.2
+U003,Dark,Sci-Fi,100,04/05/2023,4.4
+U001,The Crown,Drama,85,05/05/2023,4.1
+U005,Breaking Bad,Crime,130,05/05/2023,4.6
