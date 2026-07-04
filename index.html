@@ -1,43 +1,569 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>music-aap</title>
-    <link rel="stylesheet" href="new.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajeet Yadav | Data Analytics Engineer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-     <audio src="song/1.mp3" id="audio"></audio>
 
-     <div class="music-player">
-       <h1 class="music-name">song one</h1>
-       <p class="artist-name">artist</p>
+<!-- ── NAV ── -->
+<nav id="navbar">
+  <a class="nav-logo" href="#home">AY Portfolio</a>
+  
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+     <a class="nav-resume" href="ajeet (1).pdf" target="_blank">
+    Resume↗
+</a>
+<button id="themeToggle" class="theme-btn">
+        🌙
+    </button>
+</div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+  </div>
+</nav>
 
-       <div class="disk"></div>
+<!-- Mobile Nav Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+</div>
 
-       <div class="song-slider">
-        <input type="range" value="0" class="seek-bar">
-        <span class="current-iteam">00:00</span>
-        <span class="song-duration">00:00</span>
-       </div>
+<!-- ── HERO ── -->
+<section id="home">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+    <div class="hero-badge">🚀 Available for Opportunities</div>
+    <p class="hero-greeting">Hello, I'm</p>
+    <h1 class="hero-name">Ajeet Yadav</h1>
+    <p class="hero-tagline">
+  A passionate <strong>Data Analytics Enthusiast</strong> skilled in Power BI, Python, SQL, and Data Visualization. I love turning complex data into actionable insights.
+</p>
+    </p>
+    <div class="hero-btns">
+      <a class="btn-primary" href="#contact">⚡ Hire Me</a>
+      <a class="btn-secondary" href="#projects">🔭 View Projects</a>
+      <a class="btn-secondary" href="ajeet (1).pdf" target="_blank">📄 Resume</a>
+    </div>
+    <div class="hero-social">
+      <a class="social-link" href=  "https://www.linkedin.com/in/ajeet-yadav-61a03a282?" target="_blank" title="LinkedIn">in</a>
+      <a class="social-link" href="https://github.com/Ajeetyadav7753" target="_blank" title="GitHub">gh</a>
+      <a class="social-link" href="https://www.kaggle.com/ajeetyadav7753" target="_blank" title="Kaggle">kg</a>
+      <a class="social-link" href="mailto:ajeetyadav03112005@gmail.com" title="Email">✉</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num" data-target="4">15+</div>
+        <div class="stat-label">Projects</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-target="3">6</div>
+        <div class="stat-label">Internships</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-target="22">10+</div>
+        <div class="stat-label">Kaggle Dataset Projects</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-suffix="K+" data-target="307">100K+</div>
+        <div class="stat-label">Records Analyzed</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-       <div class="controls">
-        <!-- <i class="fa-solid fa-backward"></i> -->
-        <h2 id="fa-solid fa-backward"><<</h2>
-        <i class="backward-btn"></i> 
-        <button class="play-btn pause">
-            
-            <span></span>
-            <span></span>
-        </button>
-        <!-- <i class="fa-solid fa-forward"></i> -->
-        <h1 id="fa-solid fa-forward">>></h1>
+<!-- ── ABOUT ── -->
+<section id="about">
+  <div class="section-inner">
+    <p class="section-label">01. About</p>
+    <h2 class="section-title">Who Am <span>I?</span></h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm <strong>Ajeet Yadav</strong>, a passionate Data Analyst and B.Tech Computer Science student with a strong interest in Data Analytics, Business Intelligence, and Data Visualization. I have completed multiple internships and worked on real-world projects using Power BI, Python, SQL, Excel, and Jupyter Notebook.</p>
+              <p>My journey into data analytics started with a curiosity to understand how data can help businesses make better decisions. This interest led me to explore data cleaning, visualization, dashboard development, statistical analysis, and predictive analytics through hands-on projects and practical learning.</p>
+               <p>What sets me apart is my ability to transform raw data into meaningful insights. Every project I work on follows a structured approach including data collection, cleaning, analysis, visualization, and reporting to create impactful and easy-to-understand solutions.</p>
+                <p>I'm continuously improving my analytical and technical skills while seeking opportunities to contribute to data-driven organizations. My goal is to build a successful career as a Data Analyst and help businesses solve real-world challenges through data.</p>
+        <div class="about-highlights">
+          <div class="highlight-item"><span class="emoji">🤖</span> Power BI & Dashboard Development</div>
+          <div class="highlight-item"><span class="emoji">📊</span> Data Analysis & Visualization</div>
+          <div class="highlight-item"><span class="emoji">🚀</span> Python Data Analysis</div>
+          <div class="highlight-item"><span class="emoji">🎯</span> 6 Internships</div>
+        </div>
+      </div>
+      <div class="about-info">
+        <div class="info-row"><span class="info-label">🎓 Degree</span><span class="info-value">B.Tech & CSE</span></div>
+        <div class="info-row"><span class="info-label">📍 Location</span><span class="info-value">Prayagraj, India</span></div>
+        <div class="info-row"><span class="info-label">🔭 Goal</span><span class="info-value">Data Analyst / Power BI Developer </span></div>
+        <div class="info-row"><span class="info-label">💻 Specialty</span><span class="info-value"> Data Analytics, Power BI, Python, SQL</span></div>
+        <div class="info-row"><span class="info-label">🌟 Status</span><span class="info-value green">Open to Opportunities</span></div>
+        <div class="info-row"><span class="info-label">🏫 University</span><span class="info-value">AKTU · 2022 – 2026</span></div>
+        <div class="info-row"><span class="info-label">📧 Email</span><span class="info-value">ajeetyadav03112005@gmail.com</span></div>
+        <div class="info-row"><span class="info-label">📱 Phone</span><span class="info-value">+91 7753935718</span></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- <i class="forward-btn"></i> -->
-       </div>
-     </div>
-     <!-- <script src="https://kit.fontawesome.com/b21e78cd57.js" crossorigin="anonymous"></script> -->
-     <script src="song.js"></script>
-     <script src="new.js"></script>
+<!-- ── SKILLS ── -->
+<section id="skills">
+  <div class="section-inner">
+    <p class="section-label">03. Skills</p>
+    <h2 class="section-title">Technical <span>Arsenal</span></h2>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-card-title">📊Data Analytics</div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Power BI</span><span class="skill-pct">90%</span></div><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Excel</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Data Visualization</span><span class="skill-pct">88%</span></div><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Business Intelligence</span><span class="skill-pct">75%</span></div><div class="skill-bar"><div class="skill-fill" data-width="75"></div></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-title">🧠 Database & Tools</div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">SQL</span><span class="skill-pct">82%</span></div><div class="skill-bar"><div class="skill-fill" data-width="82"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Power Query</span><span class="skill-pct">78%</span></div><div class="skill-bar"><div class="skill-fill" data-width="78"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">DAX</span><span class="skill-pct">75%</span></div><div class="skill-bar"><div class="skill-fill" data-width="75"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Git & GitHub</span><span class="skill-pct">70%</span></div><div class="skill-bar"><div class="skill-fill" data-width="70"></div></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-title">🐍 Programming</div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Python</span><span class="skill-pct">92%</span></div><div class="skill-bar"><div class="skill-fill" data-width="92"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Jupyter Notebook</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Pandas / NumPy</span><span class="skill-pct">90%</span></div><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Matplotlib / Plotly</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-title">🚀 Deployment</div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Streamlit</span><span class="skill-pct">92%</span></div><div class="skill-bar"><div class="skill-fill" data-width="92"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">FastAPI</span><span class="skill-pct">78%</span></div><div class="skill-bar"><div class="skill-fill" data-width="78"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">SQLite / Databases</span><span class="skill-pct">80%</span></div><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Git / GitHub</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-title">📊 Data Science</div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">EDA</span><span class="skill-pct">90%</span></div><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Statistics</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">ARIMA / Forecasting</span><span class="skill-pct">78%</span></div><div class="skill-bar"><div class="skill-fill" data-width="78"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">A/B Testing</span><span class="skill-pct">82%</span></div><div class="skill-bar"><div class="skill-fill" data-width="82"></div></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-title">🏆Professional</div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Communication</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Leadership</span><span class="skill-pct">88%</span></div><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Problem Solving</span><span class="skill-pct">80%</span></div><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
+        <div class="skill-item"><div class="skill-header"><span class="skill-name">Time Management</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── PROJECTS ── -->
+<section id="projects">
+  <div class="section-inner">
+    <p class="section-label">04. Projects</p>
+    <h2 class="section-title">Featured <span>Projects</span></h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-meta">
+          <span class="project-emoji">📊</span>
+          <span class="project-tag">Customer Segmentation Analytics</span>
+        </div>
+        <h3 class="project-title"> Customer Segmentation Analytics Dashboard📈</h3>
+        <p class="project-desc">Developed an interactive Power BI dashboard to analyze customer demographics, transaction behavior, customer risk levels, and revenue contribution. The dashboard helps identify valuable customer segments and supports data-driven business decisions.</p>
+        <div class="project-badges">
+          <span class="badge">156K Customers</span>
+          <span class="badge">312.81M Revenue</span>
+          <span class="badge">161K Transactions</span>
+        </div>
+        <div class="project-tech">
+          <span class="tech-pill">Python</span>
+          <span class="tech-pill">Power BI</span>
+          <span class="tech-pill">Excel</span>
+          <span class="tech-pill">Power Query</span>
+          <span class="tech-pill">DAX</span>
+        </div>
+        <div class="project-links">
+          <a class="proj-link live" href=" https://www.linkedin.com/posts/ajeet-yadav-61a03a282_powerbi-dataanalytics-businessintelligence-activity-7470363547097542656-X8S7?utm_source=share&utm_medium=member_android&rcm=ACoAAES0WfYBLINtL_K_9TF_3J-oYZZvNzSpDkg" target="_blank">View Project ↗</a>
+          <a class="proj-link gh" href=" https://github.com/Ajeetyadav7753/Ajeet-Yadav-/commit/2752817caf73199754cb403a5aa0def31a21030a" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-meta">
+          <span class="project-emoji">🚀</span>
+          <span class="project-tag"> Predictive Analysis for E-Commerce Sales</span>
+        </div>
+        <h3 class="project-title">  Predictive Analysis for E-Commerce Sales 📊</h3>
+        <p class="project-desc">Developed an interactive Power BI dashboard to analyze e-commerce sales performance, customer behavior, revenue trends, payment methods, and country-wise sales growth. The dashboard provides actionable insights for business growth and decision-making..</p>
+        <div class="project-badges">
+          <span class="badge">$1.01M Revenue</span>
+          <span class="badge">100K Orders</span>
+          <span class="badge">10M Customers</span>
+        </div>
+        <div class="project-tech">
+          <span class="tech-pill">Python</span>
+          <span class="tech-pill">Excel</span>
+          <span class="tech-pill">DAX</span>
+          <span class="tech-pill">Power Query</span>
+          <span class="tech-pill">Power BI</span>
+        </div>
+        <div class="project-links">
+          <a class="proj-link live" href=" https://www.linkedin.com/posts/ajeet-yadav-61a03a282_powerbi-dataanalytics-businessintelligence-activity-7458112610165653505-OHEN?utm_source=share&utm_medium=member_android&rcm=ACoAAES0WfYBLINtL_K_9TF_3J-oYZZvNzSpDkg" target="_blank">View Project ↗</a>
+          <a class="proj-link gh" href=" https://github.com/Ajeetyadav7753/Ajeet-Yadav-/commit/8d4103684762efe0a30af255292473cc766e9f0e" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-meta">
+          <span class="project-emoji"> 📈</span>
+          <span class="project-tag"> Amazon Product Data Analysis </span>
+        </div>
+        <h3 class="project-title">Amazon Product Data Analysis📊</h3>
+        <p class="project-desc">Developed an interactive Power BI dashboard to analyze Amazon product ratings, customer reviews, pricing trends, discount percentages, and category-wise product performance. The dashboard provides valuable insights into customer preferences and product sales performance.</p>
+        <div class="project-badges">
+          <span class="badge"> 27M Rating Count</span>
+          <span class="badge"> 6K Rating</span>
+          <span class="badge"> Product Analysis</span>
+        </div>
+        <div class="project-tech">
+          <span class="tech-pill">Python</span>
+          <span class="tech-pill"> Power BI</span>
+          <span class="tech-pill"> Data Modeling</span>
+          <span class="tech-pill"> Excel</span>
+          <span class="tech-pill"> DAX</span>
+        </div>
+        <div class="project-links">
+          <a class="proj-link live" href=" https://www.linkedin.com/posts/ajeet-yadav-61a03a282_powerbi-dataanalytics-businessintelligence-activity-7426655756760047616-MhBN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAES0WfYBLINtL_K_9TF_3J-oYZZvNzSpDkg" target="_blank">View Project ↗</a>
+          <a class="proj-link gh" href=" https://github.com/Ajeetyadav7753/Ajeet-Yadav-/commit/7c3bff27396120405b92c71a84224e3f6bec2314" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-meta">
+          <span class="project-emoji">🎯</span>
+          <span class="project-tag">  Blinkit Sales Analysis Dashboard</span>
+        </div>
+        <h3 class="project-title">  Blinkit Sales Analysis Dashboard 📊</h3>
+        <p class="project-desc">Developed an interactive Power BI dashboard to analyze Blinkit sales performance, outlet distribution, product categories, customer ratings, and inventory insights. The dashboard helps identify sales trends, outlet performance, and business growth opportunities through data-driven analysis.</p>
+        <div class="project-badges">
+          <span class="badge"> $1.20M Sales</span>
+          <span class="badge"> 9K Total Items</span>
+          <span class="badge">3.92 Avg Rating</span>
+        </div>
+        <div class="project-tech">
+          <span class="tech-pill">Python</span>
+          <span class="tech-pill"> Power BI</span>
+          <span class="tech-pill"> Excel</span>
+          <span class="tech-pill"> DAX</span>
+          <span class="tech-pill"> Data Visualization</span>
+        </div>
+        <div class="project-links">
+          <a class="proj-link live" href=" https://www.linkedin.com/posts/ajeet-yadav-61a03a282_powerbi-dataanalytics-dashboarddesign-activity-7419142640396525568-iv_v?utm_source=share&utm_medium=member_desktop&rcm=ACoAAES0WfYBLINtL_K_9TF_3J-oYZZvNzSpDkg" target="_blank">View Project ↗</a>
+          <a class="proj-link gh" href=" https://github.com/Ajeetyadav7753/Ajeet-Yadav-/commit/6a5f1ace16628d8cb040e28c6afcc1100459ae5" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── EXPERIENCE ── -->
+<section id="experience">
+  <div class="section-inner">
+    <p class="section-label">05. Experience</p>
+    <h2 class="section-title">Work <span>Experience</span></h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Data Science & Analytics Intern</div>
+            <div class="exp-company"> Tamizhan Skills· Remote</div>
+          </div>
+          <span class="exp-period">JUNE 2025 — JULY 2025</span>
+        </div>
+        <ul class="exp-points">
+    <li>Developed interactive Power BI dashboards for Customer Segmentation, E-Commerce Sales Analysis, Amazon Product Analytics, and Blinkit Sales Analysis.</li>
+     <li>Performed data cleaning, transformation, and visualization using Power BI, Excel, Power Query, and DAX to generate business insights.</li>
+    <li>Analyzed large datasets to identify customer behavior, sales trends, product performance, and business growth opportunities.</li>
+    <li>Created KPI reports and dashboards to support data-driven decision making and improve reporting efficiency.</li>
+</ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Data Science & Analytics Intern</div>
+            <div class="exp-company"> Future Interns· Remote</div>
+          </div>
+          <span class="exp-period">JULY 2025 — AUG 2025</span>
+        </div>
+         <ul class="exp-points">
+    <li>Developed data analytics projects including Sales Forecasting, Customer Segmentation, and E-Commerce Data Analysis using Python and Power BI.</li>
+    <li>Performed data cleaning, exploratory data analysis (EDA), and visualization using Pandas, NumPy, Matplotlib, and Seaborn.</li>
+    <li>Built interactive dashboards and generated actionable insights to support data-driven business decisions.</li>
+</ul>
+      </div>
+
+     
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Data Analyst Intern</div>
+            <div class="exp-company"> Cognifyz Technologies · Remote</div>
+          </div>
+          <span class="exp-period"> AUS 2025 — SEP 2025</span>
+        </div>
+         <ul class="exp-points">
+    <li>Performed Exploratory Data Analysis (EDA) on restaurant datasets to identify customer preferences and business trends.</li>
+    <li>Analyzed restaurant ratings, cuisines, pricing, online delivery, and table booking patterns using Python and data visualization techniques.</li>
+    <li>Created interactive dashboards and generated actionable insights to support data-driven decision making.</li>
+</ul>
+      </div>
+
+        <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Data Analytics Intern</div>
+            <div class="exp-company">Overload Ware Labs Ai (Owl)· Remote</div>
+          </div>
+          <span class="exp-period"> SEP 2025 — OCT 2025</span>
+        </div>
+         <ul class="exp-points">
+    <li>Developed data analytics projects including Sales Forecasting, Customer Segmentation, and E-Commerce Data Analysis using Python and Power BI.</li>
+    <li>Performed data cleaning, exploratory data analysis (EDA), and visualization using Pandas, NumPy, Matplotlib, and Seaborn.</li>
+    <li>Built interactive dashboards and generated actionable insights to support data-driven business decisions.</li>
+</ul>
+      </div>
+
+       <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Data Science Intern</div>
+            <div class="exp-company">Pinnacle Labs· Remote</div>
+          </div>
+          <span class="exp-period"> FEB 2026 — MAR 2026</span>
+        </div>
+      <ul class="exp-points">
+    <li>Developed interactive Power BI dashboards for Customer Segmentation, E-Commerce Sales Analysis, Amazon Product Analytics, and Blinkit Sales Analysis.</li>
+
+    <li>Performed data cleaning, transformation, and visualization using Power BI, Excel, Power Query, and DAX to generate business insights.</li>
+    <li>Analyzed large datasets to identify customer behavior, sales trends, product performance, and business growth opportunities.</li>
+    <li>Created KPI reports and dashboards to support data-driven decision making and improve reporting efficiency.</li>
+</ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Data Analytics Intern</div>
+            <div class="exp-company"> Navyan Internship and IT Services· Remote</div>
+          </div>
+          <span class="exp-period">May 2026 — June 2026</span>
+        </div>
+         <ul class="exp-points">
+  <li>Worked on real-world data analytics projects using Python, SQL, Excel, and Power BI.</li>
+  <li>Performed data cleaning, preprocessing, and exploratory data analysis (EDA) to identify business insights.</li>
+  <li>Designed interactive Power BI dashboards and reports for data visualization and decision-making.</li>
+  <li>Applied Pandas, NumPy, and Matplotlib to analyze large datasets and automate reporting tasks.</li>
+  <li>Collaborated with the team remotely to deliver project milestones on time and improve reporting efficiency.</li>
+</ul>
+      </div>
+
+      
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CERTIFICATIONS ── -->
+<section id="certifications">
+  <div class="section-inner">
+    <p class="section-label">07. Certifications</p>
+    <h2 class="section-title">My <span>Credentials</span></h2>
+    <div class="certs-grid">
+      <div class="cert-card">
+        <div class="cert-icon">🏆</div>
+        <div class="cert-issuer"> Microsoft Power BI Certificate</div>
+        <div class="cert-title"> Analyzing and Visualizing Data with Microsoft Power BI</div>
+        <div class="cert-date"> 17 APR 2025 ·</div>
+        <a class="cert-link" href= "https://www.linkedin.com/posts/ajeet-yadav-61a03a282_microsoftlearn-activity-7318589368649109504-ZDyl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAES0WfYBLINtL_K_9TF_3J-oYZZvNzSpDkg" target="_blank">🎓 View Credential</a>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">🏆</div>
+        <div class="cert-issuer">  UniAthena  / Coursera</div>
+        <div class="cert-title">  Basics ofMachine Learning Algorithms</div>
+        <div class="cert-date">13 APR 2025 · Courses</div>
+        <a class="cert-link" href=" https://www.linkedin.com/posts/ajeet-yadav-61a03a282_datascience-machinelearning-continuouslearning-activity-7317274755588313088-Afmb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAES0WfYBLINtL_K_9TF_3J-oYZZvNzSpDkg" target="_blank">🎓 View Credential</a>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">🏆</div>
+        <div class="cert-issuer">  Deloitte via Forage 🚀.  </div>
+        <div class="cert-title"> Data Analytics Job Simulation</div>
+        <div class="cert-date"> Aug 2025 ·  </div>
+        <a class="cert-link" href=" https://www.linkedin.com/posts/ajeet-yadav-61a03a282_dataanalytics-deloitte-forage-activity-7365303784928919552-0l6u?utm_source=share&utm_medium=member_desktop&rcm=ACoAAES0WfYBLINtL_K_9TF_3J-oYZZvNzSpDkg" target="_blank">🎓 View Credential</a>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">🏆</div>
+        <div class="cert-issuer"> TATA & Forage 🚀</div>
+        <div class="cert-title"> GenAI Powered Data Analytics Job Simulation</div>
+        <div class="cert-date"> Aug 2025</div>
+        <a class="cert-link" href=" https://www.linkedin.com/posts/ajeet-yadav-61a03a282_dataanalytics-ai-genai-activity-7367140314874114048-NYhe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAES0WfYBLINtL_K_9TF_3J-oYZZvNzSpDkg" target="_blank">🎓 View Credential</a>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-icon">🏆</div>
+        <div class="cert-issuer">Course E-Learning . Coursera  🚀</div>
+        <div class="cert-title">Power BI 7-Hours Free</div>
+        <div class="cert-date"> Aug 2025</div>
+        <a class="cert-link" href=" https://www.linkedin.com/posts/ajeet-yadav-61a03a282_powerbi-dataanalytics-learning-activity-7367499904602034176-04sE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAES0WfYBLINtL_K_9TF_3J-oYZZvNzSpDkg" target="_blank">🎓 View Credential</a>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-icon">🏆</div>
+        <div class="cert-issuer"> Unstop . Course 🚀</div>
+        <div class="cert-title"> American Express Data Analysis course</div>
+        <div class="cert-date"> Aug 2025</div>
+        <a class="cert-link" href="https://www.linkedin.com/posts/ajeet-yadav-61a03a282_dataanalytics-americanexpress-unstop-activity-7374071643855388672-c9KC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAES0WfYBLINtL_K_9TF_3J-oYZZvNzSpDkg" target="_blank">🎓 View Credential</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ACHIEVEMENTS ── -->
+<section id="achievements">
+  <div class="section-inner">
+    <p class="section-label">08. Achievements</p>
+    <h2 class="section-title">Milestones <span>& Wins</span></h2>
+    <div class="achieve-grid">
+      <div class="achieve-card">
+    <div class="achieve-icon">🏆</div>
+    <div class="achieve-title">6 Internships Completed</div>
+    <div class="achieve-desc">Successfully completed 6 internships in Data Analytics and Data Science.</div>
+</div>
+
+<div class="achieve-card">
+    <div class="achieve-icon">📊</div>
+    <div class="achieve-title">15+ Analytics Projects</div>
+    <div class="achieve-desc">Built dashboards and analytics projects using Power BI, Python, SQL and Jupyter Notebook.</div>
+</div>
+
+<div class="achieve-card">
+    <div class="achieve-icon">📜</div>
+    <div class="achieve-title">5+ Certifications Earned</div>
+    <div class="achieve-desc">Completed certifications in Data Analytics, Power BI, Python and related technologies.</div>
+</div>
+
+<div class="achieve-card">
+    <div class="achieve-icon">💼</div>
+    <div class="achieve-title">Data Analytics Enthusiast</div>
+    <div class="achieve-desc">Experienced in data cleaning, visualization, dashboard creation and business insights.</div>
+</div>
+      <div class="achieve-card">
+    <div class="achieve-icon">📊</div>
+    <div class="achieve-title">20+ Kaggle Dataset Projects</div>
+    <div class="achieve-desc">
+        Built 20+ data analytics and machine learning projects using Kaggle datasets, applying Python, Power BI, SQL, and data visualization techniques.
+    </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="section-inner">
+    <p class="section-label">12. Contact</p>
+    <h2 class="section-title">Let's Work <span>Together</span></h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p>I am a Data Analyst and Data Science enthusiast from Uttar Pradesh, India. I specialize in Python, SQL, Power BI, and Machine Learning. I am actively seeking internship and full-time opportunities where I can apply my analytical skills and contribute to meaningful projects. Let's connect and grow together! </p>
+        <div class="contact-item"><span class="icon">📍</span> Ghazipur, Uttar Pradesh, India</div>
+        <div class="contact-item"><span class="icon">✉️</span> ajeetyadav03112005@gmail.com</div>
+        <div class="contact-item"><span class="icon">📱</span> +91 7753935718</div>
+        <div class="contact-item"><span class="icon">in</span> linkedin.com/in/ajeetyadav</div>
+        <div class="contact-item"><span class="icon">gh</span> github.com/Ajeetyadav7753</div>
+        <div class="contact-item"><span class="icon">kg</span> kaggle.com/ajeetyadav7753</div>
+      </div>
+      <div class="contact-form">
+        <div class="form-row">
+          <input class="form-input" type="text" id="name" placeholder="Your Name">
+          <input class="form-input" type="email" id="email" placeholder="Your Email">
+        </div>
+        <input class="form-input" type="text" id="subject" placeholder="Subject">
+        <textarea class="form-textarea" id="message" placeholder="Your Message..."></textarea>
+        <button class="btn-submit" id="submitBtn">Send Message 🚀</button>
+        <div id="formMsg" class="form-msg"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chat-toggle" onclick="toggleChat()">
+  💬
+</div>
+
+<div class="chat-box" id="chatBox">
+  <div class="chat-header">
+    <div>
+      <h3>Ajeet</h3>
+      <span>Online</span>
+    </div>
+    <button onclick="toggleChat()">✖</button>
+  </div>
+
+  <div class="chat-body">
+    <div class="message">
+      👋 Hi there! I'm Ajeet, a  Data Analytics Engineer.
+      How can I help you today?
+    </div>
+  </div>
+
+  <div class="chat-footer">
+    <input type="text" placeholder="Type a message...">
+    <button>➤</button>
+  </div>
+</div>
+
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <p>© 2025 <a href="#home"> Ajeet Yadav</a>. Built with ❤️ from Ghazipur, UP</p>
+</footer>
+
+<!-- Back to Top Button -->
+<button class="back-to-top" id="backToTop" title="Back to top">↑</button>
+
+<script src="script.js"></script>
 </body>
 </html>
