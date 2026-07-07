@@ -1,0 +1,162 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:500px;
+}
+
+.card{
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.hide{
+    display:none;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:15px;
+    color:#333;
+}
+
+h2{
+    margin:20px 0;
+    color:#222;
+}
+
+p{
+    margin:8px 0;
+    color:#444;
+}
+
+ul{
+    margin:15px 0 20px 20px;
+}
+
+li{
+    margin:6px 0;
+}
+
+.topBar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+    font-weight:bold;
+}
+
+#timer{
+    background:#ff3b3b;
+    color:#fff;
+    padding:8px 16px;
+    border-radius:20px;
+}
+
+#questionCount{
+    color:#444;
+}
+
+.option{
+    background:#f4f4f4;
+    padding:15px;
+    border-radius:10px;
+    margin:12px 0;
+    cursor:pointer;
+    transition:.3s;
+    border:2px solid transparent;
+}
+
+.option:hover{
+    background:#dfefff;
+}
+
+.option.selected{
+    background:#4facfe;
+    color:#fff;
+    border-color:#0066ff;
+}
+
+.buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-top:25px;
+}
+
+button{
+    border:none;
+    background:#007bff;
+    color:white;
+    padding:12px 22px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+button:disabled{
+    background:#999;
+    cursor:not-allowed;
+}
+
+#resultScreen h2,
+#resultScreen h3{
+    margin:12px 0;
+    text-align:center;
+}
+
+#resultScreen button{
+    width:100%;
+    margin-top:20px;
+}
+
+@media(max-width:600px){
+
+.card{
+    padding:18px;
+}
+
+h1{
+    font-size:28px;
+}
+
+h2{
+    font-size:22px;
+}
+
+.option{
+    font-size:16px;
+    padding:14px;
+}
+
+button{
+    width:48%;
+    padding:12px;
+    font-size:15px;
+}
+
+#resultScreen button{
+    width:100%;
+}
+
+}

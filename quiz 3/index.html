@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Quiz App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Start Screen -->
+    <div id="startScreen" class="card">
+        <h1>📚 English Quiz & Computer Quiz</h1>
+
+        <p><strong>Chapters English:</strong></p>
+
+        <ul>
+            <li>A Little Squirrel</li>
+            <li>Vidit's Shopping</li>
+            <li>The Priceless Gift</li>
+        </ul>
+
+         <p><strong>Chapters Computer:</strong></p>
+
+        <ul>
+            <li>MS Word 2019</li>
+            <li>Editing a Document</li>
+            <li>MS Paint 3D</li>
+        </ul>
+
+        <p>Total Questions : <b>15</b></p>
+        <p>Time : <b>300 Seconds</b></p>
+
+        <button id="startBtn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quizScreen" class="card hide">
+
+        <div class="topBar">
+
+            <div id="questionCount">
+                Question 1 / 15
+            </div>
+
+            <div id="timer">
+                ⏳ 60
+            </div>
+
+        </div>
+
+        <h2 id="question">
+            Question will appear here
+        </h2>
+
+        <div id="options">
+
+            <!-- Options JS se aayenge -->
+
+        </div>
+
+        <div class="buttons">
+
+            <button id="prevBtn">
+                ⬅ Previous
+            </button>
+
+            <button id="nextBtn">
+                Next ➡
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Result Screen -->
+    <div id="resultScreen" class="card hide">
+
+        <h1>🎉 Quiz Completed</h1>
+
+        <h2 id="score">
+            Score : 0 / 15
+        </h2>
+
+        <h3 id="correct">
+            Correct : 0
+        </h3>
+
+        <h3 id="wrong">
+            Wrong : 0
+        </h3>
+
+        <h3 id="percentage">
+            Percentage : 0%
+        </h3>
+
+        <h3 id="resultText">
+            Result
+        </h3>
+
+        <button id="computerBtn" class="hide">
+    💻 Start Computer Quiz
+</button>
+
+        <button onclick="location.reload()">
+            Restart Quiz
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
