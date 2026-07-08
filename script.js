@@ -2,111 +2,157 @@
 // Quiz Questions
 // =======================
 
-const quizData = [
+  const questions = [
 
 {
-question:"Where did the little squirrel live?",
-options:["0.In a cave","1.In a tree","2.In a house","3.In a river"],
-answer:1
+question: "परिमेय संख्या किस रूप में लिखी जाती है?",
+options: ["p/q (q ≠ 0)", "√2", "π", "√5"],
+answer: 0
 },
-
 {
-question:"What was the squirrel collecting?",
-options:["0.Flower","1.Nuts","2.Stones","3.Toys"],
-answer:1
+question: "इनमें से कौन-सी परिमेय संख्या है?",
+options: ["√3", "5/8", "π", "√7"],
+answer: 1
 },
-
 {
-question:"What was the squirrel's tail like?",
-options:["0.Long and bushy","1.Short","2.Curly","3.Thin"],
-answer:0
+question: "परिमेय संख्या में हर (Denominator) क्या नहीं हो सकता?",
+options: ["1", "5", "0", "10"],
+answer: 2
 },
-
 {
-question:"Which animal is the story about?",
-options:["0.Rabbit","1.Squirrel","2.Monkey","3.Cat"],
-answer:1
+question: "3/4 + 1/4 = ?",
+options: ["1", "2", "3/8", "1/2"],
+answer: 0
 },
-
 {
-question:"What quality does the squirrel show?",
-options:["0.Laziness","1.Hard work","2.Anger","3.Fear"],
-answer:1
+question: "5/6 - 1/6 = ?",
+options: ["2/3", "1/2", "3/4", "5/12"],
+answer: 0
 },
-
 {
-question:"Where did Vidit go?",
-options:["0.School","1.Market","2.Park","3.Zoo"],
-answer:1
+question: "x² + 3x + 2 किस प्रकार का बहुपद है?",
+options: ["रैखिक", "द्विघात", "त्रिघात", "स्थिर"],
+answer: 1
 },
-
 {
-question:"What did Vidit carry while shopping?",
-options:["0.School bag","1.Shopping bag","2.Suitcase","3.Basket"],
-answer:1
+question: "x³ + 2x² + 1 की घात क्या है?",
+options: ["1", "2", "3", "4"],
+answer: 2
 },
-
 {
-question:"What did Vidit buy?",
-options:["0.Fruits and vegetables","1.Books","2.Clothes","3.Toys"],
-answer:0
+question: "स्थिर बहुपद का उदाहरण कौन-सा है?",
+options: ["x+1", "5", "x²", "x³"],
+answer: 1
 },
-
 {
-question:"What did Vidit learn?",
-options:["0.Waste money","1.Shop carefully","2.Play games","3.Sleep"],
-answer:1
+question: "x + 2 में कुल कितने पद हैं?",
+options: ["1", "2", "3", "4"],
+answer: 1
 },
-
 {
-question:"Who helped Vidit?",
-options:["0.Teacher","1.Parents","2.Friend","3.Brother"],
-answer:1
+question: "x² - 9 का गुणनखंड क्या है?",
+options: ["(x+3)(x-3)", "(x+9)(x-1)", "(x+1)(x-9)", "इनमें से कोई नहीं"],
+answer: 0
 },
-
 {
-question:"What is the priceless gift?",
-options:["0.Toy","1.Love and kindness","2.Money","3.Watch"],
-answer:1
+question: "27 का घनमूल क्या है?",
+options: ["2", "3", "4", "5"],
+answer: 1
 },
-
 {
-question:"Who received the gift?",
-options:["0.Stranger","1.Loved one","2.Shopkeeper","3.Driver"],
-answer:1
+question: "64 का घनमूल क्या है?",
+options: ["2", "3", "4", "8"],
+answer: 2
 },
-
 {
-question:"Why is the gift priceless?",
-options:[
-"0.Very expensive",
-"1.Cannot be bought with money",
-"2.Made of gold",
-"3.Very big"
-],
-answer:1
+question: "125 का घनमूल क्या है?",
+options: ["4", "5", "6", "7"],
+answer: 1
 },
-
 {
-question:"What value does the story teach?",
-options:[
-"0.Honesty and kindness",
-"1.Laziness",
-"2.Jealousy",
-"Anger"
-],
-answer:0
+question: "216 का घनमूल क्या है?",
+options: ["5", "6", "7", "8"],
+answer: 1
 },
-
 {
-question:"What is the main message?",
-options:[
-"0.Money is everything",
-"1.Love is more valuable",
-"2.Only rich people give gifts",
-"3.Never share"
-],
-answer:1
+question: "1000 का घनमूल क्या है?",
+options: ["8", "9", "10", "12"],
+answer: 2
+},
+{
+question: "(a + b)² = ?",
+options: ["a²+b²", "a²+2ab+b²", "a²-b²", "a²-2ab+b²"],
+answer: 1
+},
+{
+question: "(a - b)² = ?",
+options: ["a²-2ab+b²", "a²+2ab+b²", "a²-b²", "a²+b²"],
+answer: 0
+},
+{
+question: "a² - b² = ?",
+options: ["(a+b)²", "(a-b)²", "(a+b)(a-b)", "a²+b²"],
+answer: 2
+},
+{
+question: "(a+b)(a-b) बराबर है?",
+options: ["a²+b²", "a²-b²", "a²+2ab+b²", "a²-2ab+b²"],
+answer: 1
+},
+{
+question: "(x + 5)² = ?",
+options: ["x²+10x+25", "x²+25", "x²-10x+25", "x²+5"],
+answer: 0
+},
+{
+question: "इनमें से कौन-सी संख्या परिमेय है?",
+options: ["7/9", "√11", "π", "√13"],
+answer: 0
+},
+{
+question: "परिमेय संख्या 8/12 का सरल रूप क्या है?",
+options: ["2/3", "3/2", "4/5", "5/6"],
+answer: 0
+},
+{
+question: "2x + 5 किस प्रकार का बहुपद है?",
+options: ["रैखिक", "द्विघात", "त्रिघात", "स्थिर"],
+answer: 0
+},
+{
+question: "x² + 5x + 6 का गुणनखंड क्या है?",
+options: ["(x+2)(x+3)", "(x+1)(x+6)", "(x+5)(x+6)", "(x-2)(x-3)"],
+answer: 0
+},
+{
+question: "729 का घनमूल क्या है?",
+options: ["7", "8", "9", "10"],
+answer: 2
+},
+{
+question: "512 का घनमूल क्या है?",
+options: ["6", "7", "8", "9"],
+answer: 2
+},
+{
+question: "(a+b)² में मध्य पद क्या होता है?",
+options: ["ab", "2ab", "a²", "b²"],
+answer: 1
+},
+{
+question: "(x-4)² का सही विस्तार क्या है?",
+options: ["x²-8x+16", "x²+8x+16", "x²-16", "x²+16"],
+answer: 0
+},
+{
+question: "यदि a=b हो, तो a²-b² का मान क्या होगा?",
+options: ["1", "0", "a²", "b²"],
+answer: 1
+},
+{
+question: "सर्वसमिका किसके लिए सत्य होती है?",
+options: ["केवल एक मान के लिए", "केवल दो मानों के लिए", "सभी मानों के लिए", "किसी भी मान के लिए नहीं"],
+answer: 2
 }
 
 ];
@@ -114,7 +160,7 @@ answer:1
 // =======================
 
 let currentQuestion = 0;
-let answers = new Array(quizData.length).fill(null);
+let answers = new Array(questions.length).fill(null);
 
 const startScreen = document.getElementById("startScreen");
 const quizScreen = document.getElementById("quizScreen");
@@ -129,7 +175,7 @@ document.getElementById("startBtn").addEventListener("click",startQuiz);
 
 // =======================
 
-let timeLeft = 300;
+let timeLeft = 600;
 let interval;
 
 // =======================
@@ -164,14 +210,14 @@ showResult();
 function loadQuestion(){
 
 questionCount.innerHTML=
-`Question ${currentQuestion+1} / ${quizData.length}`;
+`Question ${currentQuestion+1} / ${questions.length}`;
 
 question.innerHTML=
-quizData[currentQuestion].question;
+questions[currentQuestion].question;
 
 options.innerHTML="";
 
-quizData[currentQuestion].options.forEach((opt,index)=>{
+questions[currentQuestion].options.forEach((opt,index)=>{
 
 const div=document.createElement("div");
 
@@ -209,7 +255,7 @@ loadQuestion();
 
 document.getElementById("nextBtn").addEventListener("click", () => {
 
-    if(currentQuestion < quizData.length - 1){
+    if(currentQuestion < questions.length - 1){
 
         currentQuestion++;
 
@@ -255,7 +301,7 @@ function showResult(){
 
     answers.forEach((ans,index)=>{
 
-        if(ans === quizData[index].answer){
+        if(ans === questions[index].answer){
 
             score++;
 
@@ -263,12 +309,12 @@ function showResult(){
 
     });
 
-    let wrong = quizData.length - score;
+    let wrong = questions.length - score;
 
-    let percentage = ((score / quizData.length) * 100).toFixed(2);
+    let percentage = ((score / questions.length) * 100).toFixed(2);
 
     document.getElementById("score").innerHTML =
-    `Score : ${score} / ${quizData.length}`;
+    `Score : ${score} / ${questions.length}`;
 
     document.getElementById("correct").innerHTML =
     `Correct : ${score}`;
@@ -279,7 +325,7 @@ function showResult(){
     document.getElementById("percentage").innerHTML =
     `Percentage : ${percentage}%`;
 
-    if(percentage >= 40){
+    if(percentage >= 30){
 
         document.getElementById("resultText").innerHTML =
         "🎉 Pass";
@@ -292,137 +338,3 @@ function showResult(){
     }
 
 }
-
-//////computer quiz 
-
-
-document.getElementById("computerBtn").classList.remove("hide");
-
-document.getElementById("computerBtn").addEventListener("click", () => {
-
-    // Computer Quiz Start
-
-   let quizData = computerQuiz;
-
-    answers = new Array(quizData.length).fill(null);
-
-    currentQuestion = 0;
-
-    resultScreen.classList.add("hide");
-
-    quizScreen.classList.remove("hide");
-
-    loadQuestion();
-
-    startTimer();
-
-});
-
-let computerQuiz = [
-
-{
-question:"MS Word 2019 is used for?",
-options:["0.Drawing","1.Typing documents","2.Playing Games","3.Internet Browsing"],
-answer:1
-},
-
-{
-question:"Which key is used to start a new line?",
-options:["0.Shift","1.Enter","2.Ctrl","3.Alt"],
-answer:1
-},
-
-{
-question:"Which tab is used to change the font size?",
-options:["0.Home","1.Insert","2.View","3.Review"],
-answer:0
-},
-
-{
-question:"Which shortcut is used to save a document?",
-options:["0.Ctrl + P","1.Ctrl + S","2.Ctrl + C","3.Ctrl + X"],
-answer:1
-},
-
-{
-question:"MS Word files are called?",
-options:["0.Documents","1.Pictures","2.Videos","3.Folders"],
-answer:0
-},
-
-{
-question:"Which shortcut is used to copy text?",
-options:["0.Ctrl + C","1.Ctrl + V","2.Ctrl + X","3.Ctrl + Z"],
-answer:0
-},
-
-{
-question:"Which shortcut is used to paste text?",
-options:["0.Ctrl + P","1.Ctrl + V","2.Ctrl + C","3.Ctrl + S"],
-answer:1
-},
-
-{
-question:"Which shortcut is used to cut text?",
-options:["0.Ctrl + X","1.Ctrl + C","2.Ctrl + V","3.Ctrl + Z"],
-answer:0
-},
-
-{
-question:"Which shortcut is used to undo?",
-options:["0.Ctrl + Y","1.Ctrl + Z","2.Ctrl + P","3.Ctrl + S"],
-answer:1
-},
-
-{
-question:"Editing means?",
-options:[
-"0.Making changes in a document",
-"1.Printing a document",
-"2.Deleting a file",
-"3.Opening a game"
-],
-answer:0
-},
-
-{
-question:"MS Paint 3D is used for?",
-options:[
-"0.Drawing and 3D Designing",
-"1.Typing",
-"2.Browsing",
-"3.Watching Videos"
-],
-answer:0
-},
-
-{
-question:"Which tool is used for drawing?",
-options:["0.Brush","1.Keyboard","2.Speaker","3.Camera"],
-answer:0
-},
-
-{
-question:"Which option fills color?",
-options:["0.Fill Tool","1.Zoom","2.Crop","3.Print"],
-answer:0
-},
-
-{
-question:"Paint 3D can create?",
-options:[
-"0.2D and 3D Objects",
-"1.Only Text",
-"2.Only Music",
-"3.Only Videos"
-],
-answer:0
-},
-
-{
-question:"Which option is used to save a drawing?",
-options:["0.Save","1.Exit","2.Delete","3.Refresh"],
-answer:0
-}
-
-];
