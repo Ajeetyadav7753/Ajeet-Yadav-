@@ -2,207 +2,111 @@
 // Quiz Questions
 // =======================
 
- const questions = [
+const quizData = [
 
 {
-question: "Who wrote the poem 'Another Chance'?",
-options: ["Helen Steiner Rice", "Rabindranath Tagore", "Ruskin Bond", "Sarojini Naidu"],
-answer: 0
+question:"Where did the little squirrel live?",
+options:["0.In a cave","1.In a tree","2.In a house","3.In a river"],
+answer:1
 },
+
 {
-question: "What does the poem 'Another Chance' teach us?",
-options: ["Never try again", "Learn from mistakes", "Be lazy", "Give up"],
-answer: 1
+question:"What was the squirrel collecting?",
+options:["0.Flower","1.Nuts","2.Stones","3.Toys"],
+answer:1
 },
+
 {
-question: "Who was the Kabuliwallah?",
-options: ["A doctor", "A fruit seller from Kabul", "A teacher", "A soldier"],
-answer: 1
+question:"What was the squirrel's tail like?",
+options:["0.Long and bushy","1.Short","2.Curly","3.Thin"],
+answer:0
 },
+
 {
-question: "What was the name of the little girl in 'The Kabuliwallah'?",
-options: ["Mini", "Rani", "Sita", "Gita"],
-answer: 0
+question:"Which animal is the story about?",
+options:["0.Rabbit","1.Squirrel","2.Monkey","3.Cat"],
+answer:1
 },
+
 {
-question: "Who wrote 'The Kabuliwallah'?",
-options: ["Premchand", "Rabindranath Tagore", "Ruskin Bond", "R.K. Narayan"],
-answer: 1
+question:"What quality does the squirrel show?",
+options:["0.Laziness","1.Hard work","2.Anger","3.Fear"],
+answer:1
 },
+
 {
-question: "What did the Kabuliwallah sell?",
-options: ["Books", "Dry fruits", "Flowers", "Toys"],
-answer: 1
+question:"Where did Vidit go?",
+options:["0.School","1.Market","2.Park","3.Zoo"],
+answer:1
 },
+
 {
-question: "What is the main message of 'The Right Choice'?",
-options: ["Make wise decisions", "Spend more money", "Fight with others", "Ignore advice"],
-answer: 0
+question:"What did Vidit carry while shopping?",
+options:["0.School bag","1.Shopping bag","2.Suitcase","3.Basket"],
+answer:1
 },
+
 {
-question: "A right choice leads to?",
-options: ["Failure", "Success", "Confusion", "Loss"],
-answer: 1
+question:"What did Vidit buy?",
+options:["0.Fruits and vegetables","1.Books","2.Clothes","3.Toys"],
+answer:0
 },
+
 {
-question: "Who visited Cambridge?",
-options: ["The narrator", "A king", "A teacher", "A soldier"],
-answer: 0
+question:"What did Vidit learn?",
+options:["0.Waste money","1.Shop carefully","2.Play games","3.Sleep"],
+answer:1
 },
+
 {
-question: "Which famous scientist is mentioned in 'A Visit to Cambridge'?",
-options: ["C.V. Raman", "Stephen Hawking", "Einstein", "Newton"],
-answer: 1
+question:"Who helped Vidit?",
+options:["0.Teacher","1.Parents","2.Friend","3.Brother"],
+answer:1
 },
+
 {
-question: "Stephen Hawking was famous for?",
-options: ["Painting", "Physics", "Music", "Cricket"],
-answer: 1
+question:"What is the priceless gift?",
+options:["0.Toy","1.Love and kindness","2.Money","3.Watch"],
+answer:1
 },
+
 {
-question: "What does 'Play Things' encourage children to do?",
-options: ["Play happily", "Fight", "Sleep", "Study all day"],
-answer: 0
+question:"Who received the gift?",
+options:["0.Stranger","1.Loved one","2.Shopkeeper","3.Driver"],
+answer:1
 },
+
 {
-question: "What is the theme of 'Play Things'?",
-options: ["Joy of childhood", "War", "Travel", "Business"],
-answer: 0
+question:"Why is the gift priceless?",
+options:[
+"0.Very expensive",
+"1.Cannot be bought with money",
+"2.Made of gold",
+"3.Very big"
+],
+answer:1
 },
+
 {
-question: "Awesome Assam is famous for?",
-options: ["Tea gardens", "Deserts", "Snow", "Coal mines"],
-answer: 0
+question:"What value does the story teach?",
+options:[
+"0.Honesty and kindness",
+"1.Laziness",
+"2.Jealousy",
+"Anger"
+],
+answer:0
 },
+
 {
-question: "Which river flows through Assam?",
-options: ["Ganga", "Yamuna", "Brahmaputra", "Godavari"],
-answer: 2
-},
-{
-question: "Kaziranga National Park is famous for?",
-options: ["One-horned rhinoceros", "Lions", "Tigers only", "Camels"],
-answer: 0
-},
-{
-question: "Veer Abdul Hamid was a?",
-options: ["Teacher", "Soldier", "Doctor", "Farmer"],
-answer: 1
-},
-{
-question: "Veer Abdul Hamid received which award?",
-options: ["Padma Shri", "Param Vir Chakra", "Bharat Ratna", "Ashok Chakra"],
-answer: 1
-},
-{
-question: "Veer Abdul Hamid fought in which war?",
-options: ["1965 Indo-Pak War", "Kargil War", "1971 War", "World War II"],
-answer: 0
-},
-{
-question: "What quality did Veer Abdul Hamid show?",
-options: ["Bravery", "Fear", "Laziness", "Selfishness"],
-answer: 0
-},
-{
-question: "Another Chance tells us to?",
-options: ["Try again", "Quit", "Cry", "Hide"],
-answer: 0
-},
-{
-question: "Mini became friends with?",
-options: ["Kabuliwallah", "Teacher", "Doctor", "Farmer"],
-answer: 0
-},
-{
-question: "The Kabuliwallah came from?",
-options: ["Delhi", "Kabul", "Mumbai", "Chennai"],
-answer: 1
-},
-{
-question: "Stephen Hawking inspired people through?",
-options: ["His courage", "His dance", "His acting", "His singing"],
-answer: 0
-},
-{
-question: "Cambridge is located in?",
-options: ["India", "England", "USA", "Canada"],
-answer: 1
-},
-{
-question: "Play Things is a?",
-options: ["Poem", "Story", "Play", "Essay"],
-answer: 0
-},
-{
-question: "Assam is located in?",
-options: ["North India", "North-East India", "South India", "West India"],
-answer: 1
-},
-{
-question: "Assam is famous for?",
-options: ["Tea", "Gold", "Oil only", "Cotton only"],
-answer: 0
-},
-{
-question: "Veer Abdul Hamid destroyed enemy?",
-options: ["Tanks", "Ships", "Planes", "Boats"],
-answer: 0
-},
-{
-question: "The poem Another Chance inspires?",
-options: ["Hope", "Fear", "Anger", "Pride"],
-answer: 0
-},
-{
-question: "Mini was a?",
-options: ["Little girl", "Teacher", "Doctor", "Mother"],
-answer: 0
-},
-{
-question: "Kabuliwallah loved Mini like his?",
-options: ["Friend", "Daughter", "Mother", "Teacher"],
-answer: 1
-},
-{
-question: "Stephen Hawking used?",
-options: ["Wheelchair", "Bicycle", "Car", "Horse"],
-answer: 0
-},
-{
-question: "Play Things celebrates?",
-options: ["Childhood", "Old age", "War", "Business"],
-answer: 0
-},
-{
-question: "Which animal is the pride of Kaziranga?",
-options: ["One-horned Rhino", "Elephant", "Lion", "Tiger"],
-answer: 0
-},
-{
-question: "Abdul Hamid belonged to?",
-options: ["Indian Army", "Air Force", "Navy", "Police"],
-answer: 0
-},
-{
-question: "The Right Choice teaches us?",
-options: ["Think before acting", "Be careless", "Waste time", "Fight"],
-answer: 0
-},
-{
-question: "The main idea of Awesome Assam is?",
-options: ["Beauty and culture", "Pollution", "War", "Business"],
-answer: 0
-},
-{
-question: "Veer Abdul Hamid is remembered for?",
-options: ["Bravery", "Singing", "Painting", "Dancing"],
-answer: 0
-},
-{
-question: "The overall message of these lessons is?",
-options: ["Courage, kindness and wisdom", "Hatred", "Fear", "Greed"],
-answer: 0
+question:"What is the main message?",
+options:[
+"0.Money is everything",
+"1.Love is more valuable",
+"2.Only rich people give gifts",
+"3.Never share"
+],
+answer:1
 }
 
 ];
@@ -210,7 +114,7 @@ answer: 0
 // =======================
 
 let currentQuestion = 0;
-let answers = new Array(questions.length).fill(null);
+let answers = new Array(quizData.length).fill(null);
 
 const startScreen = document.getElementById("startScreen");
 const quizScreen = document.getElementById("quizScreen");
@@ -260,14 +164,14 @@ showResult();
 function loadQuestion(){
 
 questionCount.innerHTML=
-`Question ${currentQuestion+1} / ${questions.length}`;
+`Question ${currentQuestion+1} / ${quizData.length}`;
 
 question.innerHTML=
-questions[currentQuestion].question;
+quizData[currentQuestion].question;
 
 options.innerHTML="";
 
-questions[currentQuestion].options.forEach((opt,index)=>{
+quizData[currentQuestion].options.forEach((opt,index)=>{
 
 const div=document.createElement("div");
 
@@ -305,7 +209,7 @@ loadQuestion();
 
 document.getElementById("nextBtn").addEventListener("click", () => {
 
-    if(currentQuestion < questions.length - 1){
+    if(currentQuestion < quizData.length - 1){
 
         currentQuestion++;
 
@@ -351,7 +255,7 @@ function showResult(){
 
     answers.forEach((ans,index)=>{
 
-        if(ans === questions[index].answer){
+        if(ans === quizData[index].answer){
 
             score++;
 
@@ -359,12 +263,12 @@ function showResult(){
 
     });
 
-    let wrong = questions.length - score;
+    let wrong = quizData.length - score;
 
-    let percentage = ((score / questions.length) * 100).toFixed(2);
+    let percentage = ((score / quizData.length) * 100).toFixed(2);
 
     document.getElementById("score").innerHTML =
-    `Score : ${score} / ${questions.length}`;
+    `Score : ${score} / ${quizData.length}`;
 
     document.getElementById("correct").innerHTML =
     `Correct : ${score}`;
@@ -388,3 +292,137 @@ function showResult(){
     }
 
 }
+
+//////computer quiz 
+
+
+document.getElementById("computerBtn").classList.remove("hide");
+
+document.getElementById("computerBtn").addEventListener("click", () => {
+
+    // Computer Quiz Start
+
+   let quizData = computerQuiz;
+
+    answers = new Array(quizData.length).fill(null);
+
+    currentQuestion = 0;
+
+    resultScreen.classList.add("hide");
+
+    quizScreen.classList.remove("hide");
+
+    loadQuestion();
+
+    startTimer();
+
+});
+
+let computerQuiz = [
+
+{
+question:"MS Word 2019 is used for?",
+options:["0.Drawing","1.Typing documents","2.Playing Games","3.Internet Browsing"],
+answer:1
+},
+
+{
+question:"Which key is used to start a new line?",
+options:["0.Shift","1.Enter","2.Ctrl","3.Alt"],
+answer:1
+},
+
+{
+question:"Which tab is used to change the font size?",
+options:["0.Home","1.Insert","2.View","3.Review"],
+answer:0
+},
+
+{
+question:"Which shortcut is used to save a document?",
+options:["0.Ctrl + P","1.Ctrl + S","2.Ctrl + C","3.Ctrl + X"],
+answer:1
+},
+
+{
+question:"MS Word files are called?",
+options:["0.Documents","1.Pictures","2.Videos","3.Folders"],
+answer:0
+},
+
+{
+question:"Which shortcut is used to copy text?",
+options:["0.Ctrl + C","1.Ctrl + V","2.Ctrl + X","3.Ctrl + Z"],
+answer:0
+},
+
+{
+question:"Which shortcut is used to paste text?",
+options:["0.Ctrl + P","1.Ctrl + V","2.Ctrl + C","3.Ctrl + S"],
+answer:1
+},
+
+{
+question:"Which shortcut is used to cut text?",
+options:["0.Ctrl + X","1.Ctrl + C","2.Ctrl + V","3.Ctrl + Z"],
+answer:0
+},
+
+{
+question:"Which shortcut is used to undo?",
+options:["0.Ctrl + Y","1.Ctrl + Z","2.Ctrl + P","3.Ctrl + S"],
+answer:1
+},
+
+{
+question:"Editing means?",
+options:[
+"0.Making changes in a document",
+"1.Printing a document",
+"2.Deleting a file",
+"3.Opening a game"
+],
+answer:0
+},
+
+{
+question:"MS Paint 3D is used for?",
+options:[
+"0.Drawing and 3D Designing",
+"1.Typing",
+"2.Browsing",
+"3.Watching Videos"
+],
+answer:0
+},
+
+{
+question:"Which tool is used for drawing?",
+options:["0.Brush","1.Keyboard","2.Speaker","3.Camera"],
+answer:0
+},
+
+{
+question:"Which option fills color?",
+options:["0.Fill Tool","1.Zoom","2.Crop","3.Print"],
+answer:0
+},
+
+{
+question:"Paint 3D can create?",
+options:[
+"0.2D and 3D Objects",
+"1.Only Text",
+"2.Only Music",
+"3.Only Videos"
+],
+answer:0
+},
+
+{
+question:"Which option is used to save a drawing?",
+options:["0.Save","1.Exit","2.Delete","3.Refresh"],
+answer:0
+}
+
+];

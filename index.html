@@ -14,23 +14,25 @@
 
     <!-- Start Screen -->
     <div id="startScreen" class="card">
-        <h1>📚 English Quiz  </h1>
+        <h1>📚 English Quiz & Computer Quiz</h1>
 
         <p><strong>Chapters English:</strong></p>
 
         <ul>
-            <li> Another Chance (Poem)</li>
-            <li> The Kabuliwallah</li>
-            <li> The Right Choice</li>
-            <li>  A Visit to Cambridge</li>
-            <li>  Play Things (Poem)</li>
-            <li>  Awesome Assam</li>
-            <li>  Veer Abdul Hamid</li>
+            <li>A Little Squirrel</li>
+            <li>Vidit's Shopping</li>
+            <li>The Priceless Gift</li>
         </ul>
 
-          
+         <p><strong>Chapters Computer:</strong></p>
 
-        <p>Total Questions : <b>40</b></p>
+        <ul>
+            <li>MS Word 2019</li>
+            <li>Editing a Document</li>
+            <li>MS Paint 3D</li>
+        </ul>
+
+        <p>Total Questions : <b>15</b></p>
         <p>Time : <b>300 Seconds</b></p>
 
         <button id="startBtn">Start Quiz</button>
@@ -46,7 +48,7 @@
             </div>
 
             <div id="timer">
-                ⏳ 300
+                ⏳ 60
             </div>
 
         </div>
@@ -81,7 +83,7 @@
         <h1>🎉 Quiz Completed</h1>
 
         <h2 id="score">
-            Score : 0 / 40
+            Score : 0 / 15
         </h2>
 
         <h3 id="correct">
@@ -100,7 +102,9 @@
             Result
         </h3>
 
-         
+        <button id="computerBtn" class="hide">
+    💻 Start Computer Quiz
+</button>
 
         <button onclick="location.reload()">
             Restart Quiz
